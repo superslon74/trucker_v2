@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_marginTop="25dp"
+        android:hint="@string/input_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_below="@id/editText1"
+        android:layout_marginTop="25dp"
+        android:hint="@string/input_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:ems="10" />
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_below="@id/editText2"
+        android:layout_marginTop="25dp"
+        android:hint="@string/input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:ems="10" />
+
+         <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_below="@id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+             android:layout_gravity="center_horizontal"
+             android:gravity="center_horizontal"
+            android:layout_marginTop="25dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonHusband"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Мужчина" />
+
+            <RadioButton
+                android:id="@+id/radioButtonKitten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Женщина" />
+        </RadioGroup>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_below="@id/radioGroup1"
+        android:layout_marginTop="25dp"
+        android:hint="@string/input_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_below="@id/editText4"
+        android:layout_marginTop="25dp"
+        android:hint="@string/input_password_repeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/buttonone"
+        android:layout_below="@id/editText5"
+        android:layout_marginTop="25dp"
+        android:hint="@string/buttonone"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+         />
+
+    <Button
+        android:id="@+id/buttontwo"
+        android:layout_below="@id/buttonone"
+        android:layout_marginTop="55dp"
+        android:hint="@string/buttontwo"
+        android:layout_width="300dp"
+        android:onClick="phoneLogin"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        />
+
+</RelativeLayout>

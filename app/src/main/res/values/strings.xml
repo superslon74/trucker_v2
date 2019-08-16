@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">trucker</string>
+    <string name="name_developers">Разработано Andar Solutions</string>
+    <string name="number_version">версия 1.0.1</string>
+
+    <string name="update">Обновить сейчас</string>
+    <string name="no_thanks">Отменить</string>
+
+    <string name="name_maska_one">Тест 1</string>
+    <string name="name_maska_two">Тест 2</string>
+    <string name="name_maska_three">Тест 3</string>
+
+    <string name="now_version">Доступна новая версия</string>
+    <string name="number_version_text">Чтобы использовать приложение,\n вам необходимо обновить его до\n
+    последней версии, доступной в Google Play
+    </string>
+
+    <string name="buttonone">Дальше</string>
+
+    <string name="input_name">Имя</string>
+    <string name="input_last_name">Фамилия</string>
+    <string name="input_email">E-mail</string>
+    <string name="input_password">Пароль</string>
+    <string name="input_password_repeat">Подтвердить Пароль</string>
+
+
+    <string name="input_name_value">Вы не ввели ваше Имя. Повторите пожалуйста ввод!</string>
+    <string name="input_last_name_value">Вы не ввели вашу Фамилию. Повторите пожалуйста ввод!</string>
+    <string name="input_email_value">Вы не ввели ваш E-mail. Повторите пожалуйста ввод!</string>
+    <string name="input_password_value">Вы не ввели ваш Пароль. Повторите пожалуйста ввод!</string>
+    <string name="input_password_repeat_value">Вы не ввели ваш Пароль повторно. Повторите пожалуйста ввод!</string>
+    <string name="input_password_repeat_error_value">Значения первого и второго пароля не совпадают. Повторите пожалуйста ввод!</string>
+
+
+    <string name="buttontwo">Верификация номера телефона</string>
+
+
+    <string name="facebook_app_id">910189299343970</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">eb24deea1663edf30ad3a65c850c6616</string>
+    <string name="ak_login_protocol_scheme">ak910189299343970</string>
+
+    <string name="select_type_document">Отправить</string>
+    <string name="numer_dokument">Номер выбранного, для загрузки, документа</string>
+
+
+</resources>
